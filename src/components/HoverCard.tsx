@@ -8,8 +8,8 @@ interface HoverCardProps {
 const HoverCard = ({ children, className = "" }: HoverCardProps) => {
   return (
     <div className={`
-      bg-white rounded-xl p-6 border border-border/20 shadow-card
-      hover:shadow-hover hover:border-primary/20 transition-all duration-300
+      glass rounded-xl p-6 glow-hover transition-all duration-300
+      hover:bg-card/30 hover:border-primary/30 hover:shadow-hover
       group cursor-pointer
       ${className}
     `}>
