@@ -75,9 +75,9 @@ const SolutionsSection = () => {
     },
     {
       icon: FileText,
-      title: "Document Processing",
-      description: "AI-powered document verification and processing",
-      stats: "99.9% Accuracy"
+      title: "Legal Advisory",
+      description: "We have a legal team which will help you give a legal opinion on the property",
+      stats: "Expert Legal Support"
     },
     {
       icon: Settings,
