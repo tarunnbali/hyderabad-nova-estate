@@ -22,9 +22,9 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl md:text-6xl font-bold leading-tight text-foreground">
                 Future-Ready
-                <span className="holographic block">Property Solutions</span>
+                <span className="text-primary block">Property Solutions</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 Experience next-generation property management with AI-powered insights, 
@@ -50,11 +50,11 @@ const HeroSection = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-gradient-primary text-primary-foreground glow-hover">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all">
                 Start Your Journey
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="border-primary/30 hover:bg-primary/10">
+              <Button size="lg" variant="outline" className="border-primary/30 hover:bg-primary/5">
                 Explore Solutions
               </Button>
             </div>
@@ -90,13 +90,13 @@ const HeroSection = () => {
                   </select>
                 </div>
 
-                <Button className="w-full bg-gradient-secondary text-secondary-foreground glow-hover">
+                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg hover:shadow-xl transition-all">
                   Get Free Consultation
                 </Button>
 
                 <div className="text-center">
                   <p className="text-xs text-muted-foreground">
-                    ✨ Powered by AI • 🔒 100% Secure • ⚡ Instant Results
+                    ✨ Professional Service • 🔒 100% Secure • ⚡ Instant Results
                   </p>
                 </div>
               </div>

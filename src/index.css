@@ -6,43 +6,43 @@
 
 @layer base {
   :root {
-    /* Deep space theme with electric accents */
-    --background: 220 27% 4%;
-    --foreground: 210 40% 98%;
+    /* Clean white theme with professional blue accents */
+    --background: 0 0% 100%;
+    --foreground: 220 13% 18%;
 
-    /* Glass morphism cards */
-    --card: 220 27% 6%;
-    --card-foreground: 210 40% 98%;
+    /* Subtle cards with soft shadows */
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 18%;
 
-    /* Floating elements */
-    --popover: 220 27% 8%;
-    --popover-foreground: 210 40% 98%;
+    /* Clean popover styling */
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 18%;
 
-    /* Electric blue primary */
-    --primary: 200 100% 50%;
-    --primary-foreground: 220 27% 4%;
-    --primary-glow: 200 100% 65%;
+    /* Professional blue from your logo */
+    --primary: 207 90% 54%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 207 90% 70%;
 
-    /* Teal secondary */
-    --secondary: 180 70% 45%;
-    --secondary-foreground: 220 27% 4%;
+    /* Complementary professional colors */
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 220 13% 18%;
 
-    /* Muted elements */
-    --muted: 220 27% 12%;
-    --muted-foreground: 210 20% 65%;
+    /* Subtle muted elements */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
 
-    /* Holographic accent */
-    --accent: 270 100% 60%;
-    --accent-foreground: 220 27% 4%;
+    /* Accent color for highlights */
+    --accent: 207 90% 54%;
+    --accent-foreground: 0 0% 100%;
 
-    /* Danger states */
+    /* Professional styling */
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    /* Borders and inputs with glow */
-    --border: 220 27% 18%;
-    --input: 220 27% 10%;
-    --ring: 200 100% 50%;
+    /* Clean borders and inputs */
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 207 90% 54%;
 
     --radius: 0.5rem;
 
@@ -62,22 +62,22 @@
 
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    /* Gradients for futuristic effects */
+    /* Professional gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
     --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--accent)));
     --gradient-glass: linear-gradient(135deg, 
-      hsl(var(--card) / 0.1), 
-      hsl(var(--card) / 0.05)
+      hsl(var(--card) / 0.8), 
+      hsl(var(--card) / 0.95)
     );
     --gradient-hero: linear-gradient(135deg, 
       hsl(var(--background)), 
-      hsl(220 27% 8%)
+      hsl(210 40% 98%)
     );
 
-    /* Shadows with glow effects */
-    --shadow-glow: 0 0 40px hsl(var(--primary) / 0.3);
-    --shadow-card: 0 8px 32px hsl(220 27% 2% / 0.6);
-    --shadow-hover: 0 20px 60px hsl(var(--primary) / 0.2);
+    /* Professional shadows */
+    --shadow-glow: 0 4px 20px hsl(var(--primary) / 0.15);
+    --shadow-card: 0 4px 20px hsl(220 13% 18% / 0.08);
+    --shadow-hover: 0 8px 30px hsl(var(--primary) / 0.2);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -89,9 +89,12 @@
   }
 
   .dark {
-    /* Enhanced dark theme */
-    --background: 220 27% 2%;
-    --card: 220 27% 4%;
+    /* Enhanced dark theme for accessibility */
+    --background: 220 13% 9%;
+    --foreground: 210 40% 98%;
+    --card: 220 13% 11%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
