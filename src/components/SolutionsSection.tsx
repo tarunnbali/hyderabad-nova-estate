@@ -18,9 +18,9 @@ const SolutionsSection = () => {
   const solutions = [
     {
       icon: Brain,
-      title: "AI Property Analytics",
-      description: "Advanced machine learning algorithms analyze market trends, property values, and investment opportunities in real-time.",
-      features: ["Predictive Market Analysis", "Risk Assessment", "ROI Forecasting"],
+      title: "Smart Decision Dashboards",
+      description: "Comprehensive analytics dashboards that provide clear insights and data visualization to help you make informed property investment decisions with confidence.",
+      features: ["Market Insights Dashboard", "Property Comparison Tools", "Investment Analytics"],
       color: "primary"
     },
     {
