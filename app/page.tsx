@@ -1,3 +1,5 @@
+"use client";
+
 import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import SolutionsSection from '@/components/SolutionsSection';
@@ -5,7 +7,7 @@ import ProcessSection from '@/components/ProcessSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
-const Index = () => {
+export default function Home() {
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -16,6 +18,4 @@ const Index = () => {
       <Footer />
     </div>
   );
-};
-
-export default Index;
+}

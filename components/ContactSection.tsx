@@ -13,7 +13,7 @@ const ContactSection = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl md:text-5xl font-bold">
-                Let's Build Your
+                Let&apos;s Build Your
                 <span className="holographic block">Property Future</span>
               </h2>
               <p className="text-xl text-muted-foreground">

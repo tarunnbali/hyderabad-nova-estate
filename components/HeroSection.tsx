@@ -2,17 +2,19 @@ import { ArrowRight, Shield, Zap, TrendingUp } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import HoverCard from './HoverCard';
-import heroCityscape from '@/assets/hero-cityscape.jpg';
+import Image from 'next/image';
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen pt-16 overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
-        <img 
-          src={heroCityscape} 
+        <Image
+          src="/hero-cityscape.jpg"
           alt="Futuristic cityscape"
-          className="w-full h-full object-cover opacity-20"
+          fill
+          className="object-cover opacity-20"
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-br from-background/80 via-background/60 to-background/80" />
       </div>
